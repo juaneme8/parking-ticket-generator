@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="/css/style.css" />
+
+		<title>Document</title>
+	</head>
+	<body>
+		<div id="container-ticket">
+			<img src="/img/logo_byn.svg" id="logo-ticket" alt="" />
+			<div class="brand1-ticket">Armenia Parking</div>
+			<div id="qr-ticket"></div>
+			<div id="patente-ticket"></div>
+			<div class="dire-ticket">Callao 750</div>
+			<div class="horario-ticket">Abierto las 24hs</div>
+			<div class="ts-ticket"></div>
+			<div class="brand2-ticket">Servicio Brindado por AparkARG</div>
+		</div>
+
+		<label for="inputToMakeQR">Texto QR</label>
+		<input placeholder="Patente" id="inputToMakeQR" type="text" />
+
+		<!-- Botón de impresión -->
+		<button id="btnPrint">Imprimir</button>
+
+		<script src="/js/qr-generator.js"></script>
+		<script src="/js/qr-ui.js"></script>
+	</body>
+</html>

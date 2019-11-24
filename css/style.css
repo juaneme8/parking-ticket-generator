@@ -1,0 +1,23 @@
+#container-ticket {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+#logo-ticket {
+	width: 50px;
+}
+
+@media print {
+	body * {
+		visibility: hidden;
+	}
+	#container-ticket,
+	#container-ticket * {
+		visibility: visible;
+	}
+	#container-ticket {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+}
