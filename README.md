@@ -1,5 +1,5 @@
 # parking-ticket-generator
-A simple application to generate and print tickets according to the plate number of a vehicle.
+A simple application just to generate and print tickets according to the plate number of a vehicle.
 
 ## Screenshots
 <div align="center">
